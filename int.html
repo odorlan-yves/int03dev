@@ -1,0 +1,65 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Projeto - APIs JavaScript</title>
+</head>
+<body>
+
+    <h1>Mini Projeto - Consumo de APIs</h1>
+
+    <!-- PARTE 2 - BUSCADOR DE CEP -->
+    <section>
+        <h2>Buscador de CEP</h2>
+
+        <form id="formCep">
+            <input
+                type="text"
+                id="cep"
+                placeholder="Digite o CEP"
+                maxlength="8"
+            >
+
+            <button type="submit" id="botaoCep">
+                Buscar CEP
+            </button>
+        </form>
+
+        <p id="statusCep"></p>
+
+        <dl id="resultadoCep"></dl>
+
+        <h3>Histórico de CEPs</h3>
+        <ul id="historicoCep"></ul>
+    </section>
+
+    <hr>
+
+    <!-- PARTE 3 - MINI POKÉDEX -->
+    <section>
+        <h2>Mini Pokédex</h2>
+
+        <form id="formPokemon">
+            <input
+                type="text"
+                id="pokemon"
+                placeholder="Digite o nome do Pokémon"
+            >
+
+            <button type="submit" id="botaoPokemon">
+                Buscar Pokémon
+            </button>
+        </form>
+
+        <p id="statusPokemon"></p>
+
+        <div id="resultadoPokemon"></div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
